@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("BMI 計算機（Streamlitデモ）")
-st.write("これはテストです")
+st.write("これはテストです。")
 height_cm = st.number_input("身長（cm）", min_value=100, max_value=250)
 
 weight_kg = st.number_input("体重（kg）", min_value=20, max_value=250)
