@@ -24,4 +24,4 @@ p = st.number_input("p")
 n = st.number_input("n")
 
 st.write("pのn乗は")
-st.write(p**n)
+st.write(int(p**n))
