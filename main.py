@@ -41,7 +41,7 @@ def solve_linear_equation(equation_str):
     return solutions
 
 # 一次不定方程式を解く
-equation_str = input("一次不定方程式を入力してください（例: 2*x + 3 = 0）: ")
+equation_str = st.input("一次不定方程式を入力してください（例: 2*x + 3 = 0）: ")
 solutions = solve_linear_equation(equation_str)
 
 if solutions:
